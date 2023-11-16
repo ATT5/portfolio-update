@@ -62,9 +62,8 @@ function Projects() {
       <section className=" grid grid-cols-1 lg:grid-cols-2 gap-10 px-5 gap-y-20 font-poppi text-lightGray mb-10">
         {Object.values(projects).map((pj) => (
           <motion.div
-            initial={{ y: "100%" }}
-            whileInView={{ y: ["100%", "0%"] }}
-            transition={{ duration: 0.5, ease: "easeIn", repeat: null }}
+            whileInView={{ scaleX: [0, 1] }}
+             transition={{ duration: 1, ease: "easeInOut", repeat: null }}
             viewport={{ once: true }}
             key={pj.title}
             className="relative w-full h-96 rounded-xl overflow-hidden"
