@@ -16,7 +16,7 @@ const projects = {
     description: "Landing page: React and Tailwind CSS.",
     img: taco,
     github: "https://github.com/ATT5/Taco-life",
-    demo: "https://taco-life.netlify.app/",
+    demo: "https://tacolifee.netlify.app/",
     icon: react,
   },
   pokemon: {
